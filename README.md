@@ -26,4 +26,4 @@
 
 
 
-<small style="height:30px; position:fixed; bottom:20px;  z-index:-1;">这个项目是通过 [docsify](https://github.com/docsifyjs/docsify) 来构建的，Markdown 工具是 [Typora](https://www.typora.io/)。如果你觉得这个项目对你有帮助可以来给我 [点个 star 支持一下](https://github.com/GlacierBo/slim) ❤️</small>
+<small style="height:30px; position:fixed; bottom:20px;  z-index:-1;">这个项目是通过 [docsify](https://github.com/docsifyjs/docsify) 来构建的，Markdown 工具是 [Typora](https://www.typora.io/)。如果你觉得这个项目对你有帮助可以[点个 star 支持一下](https://github.com/GlacierBo/slim)。 ❤️</small>
