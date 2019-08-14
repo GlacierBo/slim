@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://cdn.bootcss.com/blueimp-md5/2.11.1/js/md5.min.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -33,6 +34,7 @@
 	repo: 'slim',
 	owner: 'GlacierBo',
 	admin: ['GlacierBo'],
+	id: md5(location.pathname),
 	// facebook-like distraction free mode
 	distractionFreeMode: false
   })
