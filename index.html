@@ -28,14 +28,14 @@
 <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script>
-  console.log(location.pathname);
+  console.log(location.href);
   const gitalk = new Gitalk({
 	clientID: '78ad9af470e9a6071a4f',
 	clientSecret: 'cf96c326e362feaccc8aeaa211fd1b0903db850b',
 	repo: 'slim',
 	owner: 'GlacierBo',
 	admin: ['GlacierBo'],
-	id: md5(location.pathname),
+	id: md5(location.href),
 	// facebook-like distraction free mode
 	distractionFreeMode: false
   })
