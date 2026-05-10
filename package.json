@@ -1,0 +1,22 @@
+{
+  "name": "slim-guide",
+  "version": "1.0.0",
+  "description": "一本关于减肥的书",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "markdown-it-highlightjs": "^4.3.0",
+    "unplugin-vue-markdown": "^30.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.9"
+  }
+}

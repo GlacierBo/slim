@@ -1,7 +1,5 @@
 # 减肥指南
 
-
-
 这是一本关于减肥的书，记录了自己漫漫减肥路上的心得和收获，希望有缘读到这本书的你拥有一个健康的身体。
 
 首先我先介绍一下我自己，我是个一生下来就胖乎乎的程序员傅皮蛋儿。
@@ -16,12 +14,32 @@
 
 3分练7分吃，饮食方面其实是减肥非常重要的部分。
 
-减脂，减掉身上的体脂，把“肥肉”变成“瘦肉”。
-
-
+减脂，减掉身上的体脂，把"肥肉"变成"瘦肉"。
 
 <br><br>
 
+## 技术栈
 
+本项目使用 **Vue3 + Vite** 构建，通过 **GitHub Actions** 自动部署到 GitHub Pages。
 
-这个项目是通过 [docsify](https://github.com/docsifyjs/docsify) 来构建的，Markdown 工具是 [Typora](https://www.typora.io/)。如果你觉得这个项目对你有帮助可以[点个 star 支持一下](https://github.com/GlacierBo/slim)。 ❤️
+### 本地开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览生产构建
+npm run preview
+```
+
+### 自动部署
+
+项目已配置 GitHub Actions，推送到 `main` 或 `master` 分支时会自动构建并部署到 GitHub Pages。
+
+如果你觉得这个项目对你有帮助可以[点个 star 支持一下](https://github.com/GlacierBo/slim)。 ❤️
